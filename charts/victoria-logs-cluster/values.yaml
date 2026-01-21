@@ -708,7 +708,7 @@ vlstorage:
     mountPath: /storage
 
     # -- Size of the volume.
-    size: 8Gi
+    size: 10Gi
 
     # -- Mount subpath
     subPath: ""
@@ -722,7 +722,7 @@ vlstorage:
   # -- Pod’s additional labels
   podLabels: {}
   # -- Count of vlstorage pods
-  replicaCount: 2
+  replicaCount: 1
   # -- Container workdir
   containerWorkingDir: ""
   # -- Deploy order policy for StatefulSet pods
