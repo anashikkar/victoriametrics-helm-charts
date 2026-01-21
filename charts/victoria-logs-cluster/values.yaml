@@ -708,7 +708,7 @@ vlstorage:
     mountPath: /storage
 
     # -- Size of the volume.
-    size: 9Gi
+    size: 8Gi
 
     # -- Mount subpath
     subPath: ""
