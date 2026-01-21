@@ -182,7 +182,7 @@ vlselect:
   # -- Pod's annotations
   podAnnotations: {}
   # -- Count of vlselect pods
-  replicaCount: 2
+  replicaCount: 1
   # -- Container workdir
   containerWorkingDir: ""
   # -- Resource object. Details are [here](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
